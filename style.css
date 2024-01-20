@@ -1,0 +1,32 @@
+.wrap {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.item {
+  width: 230px;
+  height: 230px;
+  background-color: palevioletred
+}
+
+h1 {
+  color: palevioletred;
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  width: 5%;
+  min-width: 90px;
+}
